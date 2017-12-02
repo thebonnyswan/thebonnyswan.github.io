@@ -2,6 +2,7 @@ body {
   background-image: url("tweed.png");
   font-family: 'Roboto', sans-serif;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
