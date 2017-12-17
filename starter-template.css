@@ -3,8 +3,10 @@ body {
   font-family: 'Roboto', sans-serif;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  color: white;
 }
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: left;
+  color: whitesmoke;
 }
