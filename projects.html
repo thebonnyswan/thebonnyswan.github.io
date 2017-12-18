@@ -64,18 +64,20 @@
         
         <h1 class="featurette-heading">Project Experience <br> <br></h1>
 
-    
+        <a id="cloud" class= "anchor"></a>
 	    	<h2>Weather Responsive Cloud Light</h2>
         <p><img src="cloud.jpg" alt="Cloud Image" style="float:right;width:380px;height:506px;margin-left:10px">A prototype for a cloud-shaped lamp which simulates realtime weather in a user designated location. The lamp looks like a puffy cloud, and can display rain, snow, and lightning of varying intensities, as well as sunrise and sunset. The user can turn the lamp on and off from a web server, as well as change its overall brightness. In addition, the lamp can display the current weather in any US zip code.<br></p>
         <p>This project was designed and executed with Coco Stiff as the final project for <a href="http://pages.hmc.edu/harris/class/e155/">
         E155 Microprocessor-based Systems: Design and Applications</a>. A Raspberry Pi was used to host the web server, and make API calls to <a href="https://openweathermap.org/api">openweathermap.org</a>. It filters the API call for specific weather data, which is then sent to an FPGA. The FPGA decodes weather signals like "rain" into LED actions, and controls the six LED strands in the lamp via SPI. The six LED strands are DotStar assignable LEDs, and three are used to light the lanterns, while another three hang below the lamp to simulate rain and snow.</p>
         <p>Design of the project was done equally by both of us- while online instructables exist for similar lamps, we did not know they existed until we had finished the project. Coco used her prior experience in API calls for the software on the Pi, and implemented the web server. I worked primarily on the FPGA's Verilog firmware. I set up SPI communication between the FPGA and Pi, and implemented the decoder which translated the 16-bit instructions sent from the Pi into LED commands. I also wrote the modules controlling the LEDs, including those used to simulate rainfall. Initial SPI setup between the FPGA and LEDs was pair-programmed by both of us.</p>
         <p>The github repository for the project can be found <a href="https://github.com/cfstiff/microPsFinalProject">here<a>, while our final report can be found <a href="poss_stiff.pdf">here<a>.</p>
-      
+        
+        <a id="sleepdep" class ="anchor"></a>
         <h2>Sleep Dep Buddy</h2>
         <p><img src="sleepdepbox.jpeg" alt="Box Image" style="float:right;width:215px;height:233px;margin-left:10px">A prototype for an interactive desk pet. The pet has animated movements, and can be fed by the user. The device measures ambient light, which it monitors as an indicator of user sleep health. The health of the pet declines when the user is sleep deprived, encouraging the user to maintain healthier habits.</p>
         <p>I worked in a group of four, competing in Harvey Mudd's Hardware Hackathon. Our project won second in the Hackathon, and our project was featured in the LA Times as part of <a href="http://www.latimes.com/local/lanow/la-me-ln-harvey-mudd-tech-women-adv-snap-story.html">an article</a> about women in STEM. My contributions included working with another member of the team to set up and calibrate an accelerometer, and designing the wooden case and fitting the components inside for the final prototype, as well as helping to present our work to the judges. The github for the project can be found <a href="https://github.com/cfstiff/MuddHacks-Bot">here</a>.</p>
       
+        <a id="e80" class ="anchor"></a>
 		    <h2>Autonomous Underwater Vehicle</h2>
 
 
