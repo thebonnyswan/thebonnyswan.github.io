@@ -16,3 +16,15 @@ a.anchor{
     top: -60px;
     visibility: hidden;
 }
+
+a.btn{
+  background-color:black;
+}
+
+a:link {
+  color:lightskyblue;
+}
+
+a:visited {
+  color:skyblue;
+}
